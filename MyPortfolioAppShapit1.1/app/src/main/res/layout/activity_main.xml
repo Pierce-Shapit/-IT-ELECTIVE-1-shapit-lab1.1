@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/Shapit_background"
+    android:padding="25dp">
+
+
+    <TextView
+        android:id="@+id/emailLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="\nEmail"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:layout_gravity="center" />
+
+    <EditText
+        android:id="@+id/emailInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textSize="16dp"
+        android:hint="Enter your email"
+        android:textColorHint="@color/white"
+        android:inputType="textEmailAddress"
+        android:backgroundTint="@color/white"/>
+
+
+
+    <TextView
+        android:id="@+id/nameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:text="\nFull Name"
+        android:textColor="@color/white"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/nameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/white"
+        android:textStyle="italic"
+        android:textSize="16dp"
+        android:hint="Enter your full name (Last name, First name, Middle name)"
+        android:backgroundTint="@color/white"/>
+
+    <TextView
+        android:id="@+id/phoneLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:text="\nPhone Number"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_gravity="center" />
+
+    <EditText
+        android:id="@+id/phoneInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:textColorHint="@color/white"
+        android:textStyle="italic"
+        android:textSize="16dp"
+        android:hint="Enter your phone number for verification"
+        android:backgroundTint="@color/white"/>
+
+    <TextView
+        android:id="@+id/addressLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="18dp"
+        android:text="\nAddress"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/addressInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/white"
+        android:textStyle="italic"
+        android:textSize="16dp"
+        android:hint="Enter your address"
+        android:backgroundTint="@color/white"/>
+
+    <TextView
+        android:id="@+id/aboutMeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:text="\nAbout Me" />
+
+    <EditText
+        android:id="@+id/aboutMeInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:textStyle="italic"
+        android:hint="Tell us about yourself"
+        android:inputType="textMultiLine"
+        android:lines="1"
+        android:textSize="16dp"
+        android:textColorHint="#FFFFFF"
+        android:backgroundTint="@color/white"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\n\n" />
+
+    <Button
+    android:id="@+id/saveButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/shapit_shape"
+    android:text="Save"
+    android:textColor="@color/black"
+    android:textStyle="bold" />
+
+
+</LinearLayout>
